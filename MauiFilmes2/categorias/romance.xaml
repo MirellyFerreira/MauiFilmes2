@@ -3,10 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiFilmes2.categorias.romance"
              Title="romance"
-             BackgroundColor="#bed4ce"
+             BackgroundColor="#bed4ce">
     <VerticalStackLayout>
-    <ScrollView>
-        <Grid RowDefinitions="300,300,300"
+        <ScrollView>
+           <Grid RowDefinitions="300,300,300"
               ColumnDefinitions="*,*"
               Padding="5">
 
@@ -18,8 +18,15 @@
                          Source="ceeadv.jpg" x:Name="btncomoeuera"
                          Clicked="btncomoeuera_Clicked"/>
 
-        </Grid>
-    </ScrollView>
-       
+            <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
+                         Source="lll.jpg" x:Name="btnlalaland"
+                         Clicked="btnlalaland_Clicked"/>
+
+            <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
+                         Source="jdao.jpg" x:Name="btnjogodoamor"
+                         Clicked="btnjogodoamor_Clicked"/>
+
+           </Grid>
+       </ScrollView>
     </VerticalStackLayout>
 </ContentPage>

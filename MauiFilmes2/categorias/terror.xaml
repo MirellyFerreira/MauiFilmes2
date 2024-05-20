@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiFilmes2.categorias.terror"
+             Title="terror"
+             Background="#bed4ce">
+    <VerticalStackLayout>
+        <ScrollView>
+            <Grid RowDefinitions="300, 300, 300"
+                  ColumnDefinitions="*,*"
+                  Padding="5">
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="0"
+                             Source="c39.jpg" x:Name="btncaso"
+                             Clicked="btncaso_Clicked"/>
+
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="0"
+                             Source="ahdsm.jpg" x:Name="btnahora"
+                             Clicked="btnahora_Clicked"/>
+
+                <ImageButton Aspect="AspectFill" Grid.Column="0" Grid.Row="1"
+                             Source="af.jpg" x:Name="btnfreira"
+                             Clicked="btnfreira_Clicked"/>
+
+                <ImageButton Aspect="AspectFill" Grid.Column="1" Grid.Row="1"
+                             Source="fc.jpg" x:Name="btnfale"
+                             Clicked="btnfale_Clicked"/>
+
+            </Grid>
+        </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>

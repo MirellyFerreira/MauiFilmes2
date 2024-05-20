@@ -16,4 +16,14 @@ public partial class romance : ContentPage
     {
 
     }
+
+    private void btnlalaland_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
+
+    private void btnjogodoamor_Clicked(System.Object sender, System.EventArgs e)
+    {
+
+    }
 }
